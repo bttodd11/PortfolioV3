@@ -1,0 +1,387 @@
+/* Global CSS   mainly for the IPAD, and Tablets */
+body, html {
+  height: 100%;
+  margin: 0;
+}
+p {
+  font-size: 23px;
+  font-family: 'Coming Soon', cursive;
+  color: white;
+  text-align: center;
+}
+/*Hero Section for Ipad*/
+#Hero {
+  background-image: url(img/BG.jpeg);
+  height: 120%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color: white;
+  background-blend-mode: multiply;
+}
+.Herotext {
+  color: white;
+  font-family: 'Handlee', cursive;
+  font-size: 40px;
+  opacity: .9;
+  color: transparent;
+  text-shadow: 0 0 32px white;
+  color: white;
+}
+
+.Social {
+  color: white;
+  padding-top: 50%;
+  opacity: .4;
+  color: transparent;
+  text-shadow: 0 0 32px white;
+  color: white;
+}
+
+/*About Section for Ipad*/
+.avatar {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  opacity: .8;
+  margin-bottom: 9px;
+}
+
+.ptwo {
+  color: white;
+  font-family: 'Coming Soon', cursive;
+  font-size: 16px;
+  text-align: center;
+}
+
+.pthree {
+  color: #B3B3C0;
+}
+
+#about {
+  padding-left: 21%;
+  font-size: 50px;
+  font-family: 'Coming Soon', cursive;
+  color: #B3B3C0;
+  opacity: .9;
+  text-shadow: 0 0 32px #B3B3C0;
+}
+
+.aboutp {
+  line-height: 150%;
+  font-size: 15px;
+  font-family: 'Coming Soon', cursive;
+  color: #B3B3C0;
+}
+
+/*Services Section for Ipad*/
+
+#services {
+  width: 100%;
+  height: 550px;
+  background-color: #B3B3C0;
+  color: white;
+  text-align: center;
+  border-left: 12px solid white;
+  border-right: 12px solid white;
+}
+
+#freelanceh {
+  font-size: 25px;
+  font-family: 'Coming Soon', cursive;
+  text-align: center;
+  color: #B3B3C0;
+  padding-top: 4%;
+  opacity: .9;
+  text-shadow: 0 0 32px #B3B3C0;
+}
+
+.servicesh {
+  font-size: 50px;
+  font-family: 'Coming Soon', cursive;
+  color: #B3B3C0;
+  color: transparent;
+  text-shadow: 0 0 32px #B3B3C0;
+}
+
+#five {
+  width: 100%;
+  font-family: 'Coming Soon', cursive;
+  font-size: 38px;
+  text-align: center;
+  background-color: #B3B3C0;
+  color: white;
+  border-left: 12px solid white;
+  border-right: 12px solid white;
+}
+
+.fiveh2 {
+  font-size: 58px;
+  font-family: 'Coming Soon', cursive;
+  margin: 3px;
+  opacity: .9;
+  color: transparent;
+  text-shadow: 0 0 32px white;
+  color: white;
+}
+
+#footer {
+  width: 100%;
+  height: 30px;
+  color: black;
+  border-left: 12px solid white;
+  border-right: 12px solid white;
+}
+
+@media (max-width: 576px) {
+  p {
+    font-size: 18px;
+    font-family: 'Coming Soon', cursive;
+    color: white;
+    text-align: center;
+  }
+  .ptwo {
+    color: white;
+    font-family: 'Coming Soon', cursive;
+    font-size: 20px;
+  }
+  .pthree {
+    color: #B3B3C0;
+    font-size: 28px;
+  }
+  /*Hero Image for Mobile Phones*/
+  #Hero {
+    background-image: url(../img/BG.jpeg);
+    height: 86%;
+    backgroud-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    background-blend-mode: multiply;
+  }
+  .Herotext {
+    color: white;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 45px;
+    opacity: .9;
+  }
+  .Social {
+    color: white;
+    padding-top: 24%;
+    opacity: .2;
+    padding-left: 11%;
+  }
+  /*About Section for Mobile Phones*/
+  .avatar {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    opacity: .8;
+    margin-bottom: 9px;
+    margin-left: 19%;
+  }
+  #about {
+    padding-left: 14%;
+    font-size: 25px;
+    font-family: 'Coming Soon', cursive;
+    color: #B3B3C0;
+    opacity: .9;
+    text-shadow: 0 0 32px #B3B3C0;
+  }
+  .aboutp {
+    margin-bottom: 6%;
+    line-height: 50%;
+    font-size: 15px;
+    font-family: 'Coming Soon', cursive;
+    color: #B3B3C0;
+    padding-left: 15%;
+  }
+  #freelance {
+    background-color: white;
+    border-left: 9px solid white;
+    border-right: 9px solid white;
+  }
+  #freelanceh {
+    font-size: 35px;
+    font-family: 'Coming Soon', cursive;
+    text-align: center;
+    color: #B3B3C0;
+    padding-top: 4%;
+    opacity: .9;
+    text-shadow: 0 0 32px #B3B3C0;
+  }
+  /*Services Section for Mobile Phones*/
+  #services {
+    width: 100%;
+    height: 650px;
+    background-color: #B3B3C0;
+    color: white;
+  }
+  .servicesh {
+    font-size: 29px;
+    font-family: 'Coming Soon', cursive;
+    padding-bottom: 5%;
+    padding-top: 2%;
+    color: white;
+    opacity: .9;
+    text-shadow: 0 0 32px white;
+  }
+  #five {
+    font-family: 'Coming Soon', cursive;
+    font-size: 36px;
+    background-color: #B3B3C0;
+    color: white;
+  }
+  .fiveh2 {
+    font-size: 50px;
+    font-family: 'Coming Soon', cursive;
+    margin: 1px;
+    opacity: .9;
+    color: transparent;
+    text-shadow: 0 0 32px white;
+    color: white;
+  }
+  #footer {
+    width: 100%;
+    height: 40px;
+    color: black;
+  }
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+/* Changing the Hero for Landscape Views */
+
+@media (min-width: 768px) {
+  #Hero {
+    background-image: url(img/BG.jpeg);
+    height: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: white;
+    background-blend-mode: multiply;
+  }
+}
+
+/*// Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) {
+  p {
+    font-size: 27px;
+    font-family: 'Coming Soon', cursive;
+    color: white;
+  }
+  .ptwo {
+    color: white;
+    font-family: 'Coming Soon', cursive;
+    font-size: 27px;
+    text-align: center;
+  }
+  .pthree {
+    color: white font-size: 30px;
+  }
+  /*Hero Image for Desktop*/
+  #Hero {
+    background-image: url(img/BG.jpeg);
+    height: 120%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    background-blend-mode: multiply;
+  }
+  .Herotext {
+    color: white;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 90px;
+    opacity: .6;
+    color: transparent;
+    text-shadow: 0 0 32px white;
+    color: white;
+  }
+  .Social {
+    color: white;
+    padding-top: 8%;
+    opacity: .7;
+  }
+  /*About Section for Desktop*/
+  .avatar {
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    opacity: .8;
+    margin-bottom: 9px;
+  }
+  #about {
+    padding-left: 28%;
+    font-size: 60px;
+    font-family: 'Coming Soon', cursive;
+    color: #B3B3C0;
+    opacity: .9;
+    text-shadow: 0 0 32px #B3B3C0;
+  }
+  .aboutp {
+    padding-left: 9%;
+    line-height: 350%;
+    font-size: 28px;
+    font-family: 'Coming Soon', cursive;
+    color: #B3B3C0;
+  }
+  /*Services Section for Desktop*/
+  #services {
+    width: 100%;
+    height: 340px;
+    background-color: #B3B3C0;
+    color: white;
+    text-align: center;
+    border-left: 29px solid white;
+    border-right: 29px solid white;
+  }
+  .servicesh {
+    font-size: 50px;
+    font-family: 'Coming Soon', cursive;
+    color: white;
+    opacity: .9;
+    text-shadow: 0 0 32px white;
+  }
+  #freelance {
+    background-color: white;
+    border-left: 29px solid white;
+    border-right: 29px solid white;
+  }
+  #freelanceh {
+    font-size: 55px;
+    padding-top: 2%;
+    font-family: 'Coming Soon', cursive;
+    text-align: center;
+    color: #B3B3C0;
+    opacity: .9;
+    text-shadow: 0 0 32px #B3B3C0;
+  }
+  #five {
+    width: 100%;
+    font-family: 'Coming Soon', cursive;
+    font-size: 48px;
+    text-align: center;
+    background-color: #B3B3C0;
+    color: white;
+    border-left: 29px solid white;
+    border-right: 29px solid white;
+  }
+  .fiveh2 {
+    font-size: 90px;
+    font-family: 'Coming Soon', cursive;
+    margin: 3px;
+    opacity: .9;
+    text-shadow: 0 0 32px white;
+    color: white;
+  }
+  #footer {
+    width: 100%;
+    height: 30px;
+    color: black;
+  }
+  /*// Extra large devices (large desktops, 1200px and up)*/
+  @media (min-width: 1200px) {}
