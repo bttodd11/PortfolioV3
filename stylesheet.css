@@ -3,6 +3,12 @@ body, html {
   height: 100%;
   margin: 0;
 }
+.img{
+   border-radius: 25px;
+   height: 250px;
+   width: 520px;
+
+}
 p {
   font-size: 23px;
   font-family: 'Coming Soon', cursive;
@@ -56,23 +62,23 @@ p {
 }
 
 .pthree {
-  color: #B3B3C0;
+  color: #31E3A2
 }
 
 #about {
   padding-left: 21%;
   font-size: 50px;
   font-family: 'Coming Soon', cursive;
-  color: #B3B3C0;
+  color: #31E3A2
   opacity: .9;
-  text-shadow: 0 0 32px #B3B3C0;
+  text-shadow: 0 0 32px #31E3A2
 }
 
 .aboutp {
   line-height: 150%;
   font-size: 15px;
   font-family: 'Coming Soon', cursive;
-  color: #B3B3C0;
+  color:white;
 }
 
 /*Services Section for Ipad*/
@@ -80,29 +86,31 @@ p {
 #services {
   width: 100%;
   height: 550px;
-  background-color: #B3B3C0;
+  background-color: #31E3A2;
   color: white;
   text-align: center;
   border-left: 12px solid white;
   border-right: 12px solid white;
+  border-radius: 25px;
+
 }
 
 #freelanceh {
   font-size: 25px;
   font-family: 'Coming Soon', cursive;
   text-align: center;
-  color: #B3B3C0;
+  color: #31E3A2;
   padding-top: 4%;
   opacity: .9;
-  text-shadow: 0 0 32px #B3B3C0;
+  text-shadow: 0 0 32px white;
 }
 
 .servicesh {
   font-size: 50px;
   font-family: 'Coming Soon', cursive;
-  color: #B3B3C0;
-  color: transparent;
-  text-shadow: 0 0 32px #B3B3C0;
+  color: white;
+  opacity: .9;
+  text-shadow: 0 0 32px white;
 }
 
 #five {
@@ -110,10 +118,9 @@ p {
   font-family: 'Coming Soon', cursive;
   font-size: 38px;
   text-align: center;
-  background-color: #B3B3C0;
+  background-color: #31E3A2;
   color: white;
-  border-left: 12px solid white;
-  border-right: 12px solid white;
+  border-radius: 25px;
 }
 
 .fiveh2 {
@@ -147,7 +154,7 @@ p {
     font-size: 20px;
   }
   .pthree {
-    color: #B3B3C0;
+    color: #31E3A2;
     font-size: 28px;
   }
   /*Hero Image for Mobile Phones*/
@@ -185,16 +192,16 @@ p {
     padding-left: 14%;
     font-size: 25px;
     font-family: 'Coming Soon', cursive;
-    color: #B3B3C0;
+    color: #31E3A2;
     opacity: .9;
-    text-shadow: 0 0 32px #B3B3C0;
+    text-shadow: 0 0 32px white;
   }
   .aboutp {
     margin-bottom: 6%;
     line-height: 50%;
     font-size: 15px;
     font-family: 'Coming Soon', cursive;
-    color: #B3B3C0;
+    color: #31E3A2;
     padding-left: 15%;
   }
   #freelance {
@@ -206,17 +213,18 @@ p {
     font-size: 35px;
     font-family: 'Coming Soon', cursive;
     text-align: center;
-    color: #B3B3C0;
+    color: #31E3A2;
     padding-top: 4%;
     opacity: .9;
-    text-shadow: 0 0 32px #B3B3C0;
+    text-shadow: 0 0 32px white;
   }
   /*Services Section for Mobile Phones*/
   #services {
     width: 100%;
     height: 650px;
-    background-color: #B3B3C0;
+    background-color: #31E3A2
     color: white;
+   border-radius: 25px;
   }
   .servicesh {
     font-size: 29px;
@@ -227,10 +235,11 @@ p {
     opacity: .9;
     text-shadow: 0 0 32px white;
   }
+
   #five {
     font-family: 'Coming Soon', cursive;
     font-size: 36px;
-    background-color: #B3B3C0;
+    background-color: #31E3A2
     color: white;
   }
   .fiveh2 {
@@ -245,7 +254,7 @@ p {
   #footer {
     width: 100%;
     height: 40px;
-    color: black;
+    color: #B3B3C0;
   }
 }
 
@@ -281,6 +290,9 @@ p {
   }
   .pthree {
     color: white font-size: 30px;
+  }
+  .img{
+     border-radius: 25px;
   }
   /*Hero Image for Desktop*/
   #Hero {
@@ -318,26 +330,25 @@ p {
     padding-left: 28%;
     font-size: 60px;
     font-family: 'Coming Soon', cursive;
-    color: #B3B3C0;
+    color: #31E3A2;
     opacity: .9;
-    text-shadow: 0 0 32px #B3B3C0;
+    text-shadow: 0 0 32px white;
   }
   .aboutp {
     padding-left: 9%;
     line-height: 350%;
     font-size: 28px;
     font-family: 'Coming Soon', cursive;
-    color: #B3B3C0;
+    color: #31E3A2
   }
   /*Services Section for Desktop*/
   #services {
     width: 100%;
     height: 340px;
-    background-color: #B3B3C0;
+    background-color: #31E3A2;
     color: white;
     text-align: center;
-    border-left: 29px solid white;
-    border-right: 29px solid white;
+    border-radius: 25px;
   }
   .servicesh {
     font-size: 50px;
@@ -356,19 +367,18 @@ p {
     padding-top: 2%;
     font-family: 'Coming Soon', cursive;
     text-align: center;
-    color: #B3B3C0;
+    color: #31E3A2;
     opacity: .9;
-    text-shadow: 0 0 32px #B3B3C0;
+    text-shadow: 0 0 32px #31E3A2
   }
   #five {
     width: 100%;
     font-family: 'Coming Soon', cursive;
     font-size: 48px;
     text-align: center;
-    background-color: #B3B3C0;
+    background-color: #31E3A2;
     color: white;
-    border-left: 29px solid white;
-    border-right: 29px solid white;
+    border-radius: 25px;
   }
   .fiveh2 {
     font-size: 90px;
@@ -381,7 +391,7 @@ p {
   #footer {
     width: 100%;
     height: 30px;
-    color: black;
+    color: #B3B3C0;
   }
   /*// Extra large devices (large desktops, 1200px and up)*/
   @media (min-width: 1200px) {}
