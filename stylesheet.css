@@ -2,7 +2,7 @@
 body, html {
   height: 100%;
   margin: 0;
-  font-family: 'Coming Soon', cursive;
+  font-family: 'Hi Melody', cursive;
 }
 strong {
   font-weight: bolder;
@@ -12,47 +12,49 @@ strong {
   background-image: url(img/bostonbg.jpeg);
   background-position: center;
   background-repeat: no-repeat;
-  height: 70%;
-  color: 
+  height: 80%;
 }
 span {
   font-size: 30px;
-  font-family: 'Coming Soon', cursive;
+  font-family: 'Hi Melody', cursive;
   text-align: center;
   text-decoration: underline;
 }
 .heroT{
   color: black;
-  font-size: 30px;
+  font-size: 40px;
   text-align: center;
 }
-button{
-  margin: 2%;
-  color: white;
+.buttonLarge{
+  display: none;
 }
 .descriptionT{
-  font-size: 14px;
-  width: 170px;
-  padding-top: 19%;
+  font-size: 15px;
+   width: 200px;
+  padding-top: 3%;
+  opacity: .5;
+  margin-left: 19%;
+  color: white;
 }
 .mainHeading{
-  font-family: 'Coming Soon', cursive;
-  font-size: 42∂px;
+  font-family: 'Hi Melody', cursive;
+  font-size: 42px;
+  margin-top: 3%;
 }
 .subHeading {
-  font-family: 'Coming Soon', cursive;
+  font-family: 'Hi Melody', cursive;
   font-size: 18px;
-  text-decoration: underline
+  text-decoration: underline;
 }
 .descriptionPara{
-  font-family: 'Coming Soon', cursive;
+  font-family: 'Hi Melody', cursive;
   font-size: 14px;
 }
 #mainContent{
   text-align: center;
 }
 #subMainContent{
-  margin-top: 15%;
+  margin-top: 10%;
 }
 #logo{
   height: 95px;
@@ -72,13 +74,40 @@ button{
 }
 
 
-
-
 @media (max-width: 576px) {
+  #hero {
+    background-image: url(img/bostonbg.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 60%;
+  }
   p {
     font-size: 18px;
-    font-family: 'Coming Soon', cursive;
+    font-family: 'Hi Melody', cursive;
     text-align: center;
+  }
+  .subHeading {
+  font-family: 'Hi Melody', cursive;
+    font-size: 28px;
+    text-decoration: underline
+  }
+  .mainHeading {
+  display: none;
+  }
+  .buttonLarge{
+    display: none;
+  }
+  .buttonSmall{
+    margin: 2%;
+    font-size: 18px;
+  }
+  .descriptionT{
+    font-size: 16px;
+    width: 170px;
+    margin-left: 1%;
+    opacity: .5;
+    padding-top: 15%;
+    color: white;
   }
 
 
@@ -105,27 +134,11 @@ button{
     background-repeat: no-repeat;
   }
   .descriptionPara{
-    font-family: 'Coming Soon', cursive;
+  font-family: 'Hi Melody', cursive;
     font-size: 14px;
     text-align: center;
     width: 55%;
     margin-left: 15%;
-  }
-  .subHeading{
-
- 
-  }
-}
-
-/*// Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) {
-  p {
-    font-size: 33px;
-    font-family: 'Coming Soon', cursive;
-  }
-  button{
-    margin: 2%;
-    color:black;
   }
   .descriptionT{
     font-size: 14px;
@@ -133,20 +146,45 @@ button{
     padding-top: 13%;
     color: black;
   }
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 892px) {
+  p {
+    font-size: 33px;
+  font-family: 'Hi Melody', cursive;
+  }
+  .buttonSmall{
+  display: none
+  }
+  .buttonLarge{
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 44px;
+    cursor: pointer;
+    display: inline-block;
+  }
+  .descriptionT{
+    font-size: 22px;
+    width: 300px;
+    padding-top: 7%;
+    margin-left: 3%;
+  }
   .descriptionPara{
-    font-family: 'Coming Soon', cursive;
+  font-family: 'Hi Melody', cursive;
     font-size: 16px;
     width: 55%;
     margin-left: 23%;
+    color: black;
   }
   .jobPara{
-  font-family: 'Coming Soon', cursive;
+  font-family: 'Hi Melody', cursive;
   font-size: 18px;
   text-align: left;
   }
   .subHeading{
-    font-size: 28px;
-    text-align: 
+    font-size: 42px;
   }
   #skills{
     width: 60%;
@@ -155,7 +193,6 @@ button{
   .skillsp{
     font-size: 18px;
   }
-  
 
   .img {
     border-radius: 25px;
