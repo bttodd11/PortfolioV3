@@ -2,7 +2,7 @@
 body, html {
   height: 100%;
   margin: 0;
-  font-family: 'Hi Melody', cursive;
+  font-family: 'Sorts Mill Goudy', serif;
 }
 strong {
   font-weight: bolder;
@@ -16,7 +16,7 @@ strong {
 }
 span {
   font-size: 30px;
-  font-family: 'Hi Melody', cursive;
+  font-family: 'Sorts Mill Goudy', serif;
   text-align: center;
   text-decoration: underline;
 }
@@ -36,18 +36,13 @@ span {
   margin-left: 19%;
   color: white;
 }
-.mainHeading{
-  font-family: 'Hi Melody', cursive;
-  font-size: 42px;
-  margin-top: 3%;
-}
 .subHeading {
-  font-family: 'Hi Melody', cursive;
+  font-family: 'Sorts Mill Goudy', serif;
   font-size: 18px;
   text-decoration: underline;
 }
 .descriptionPara{
-  font-family: 'Hi Melody', cursive;
+  font-family: 'Sorts Mill Goudy', serif;
   font-size: 14px;
 }
 #mainContent{
@@ -56,6 +51,10 @@ span {
 #subMainContent{
   margin-top: 10%;
 }
+.mainHeading{
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 30px;
+}
 #logo{
   height: 95px;
   width: 250px;
@@ -63,7 +62,8 @@ span {
 #subLogo{
   border-radius: 25px;
   height: 250px;
-  width: 440px;
+  width: 320px;
+  margin: 2%;
 }
 #footer {
   width: 100%;
@@ -83,16 +83,13 @@ span {
   }
   p {
     font-size: 18px;
-    font-family: 'Hi Melody', cursive;
+    font-family: 'Sorts Mill Goudy', serif;
     text-align: center;
   }
   .subHeading {
-  font-family: 'Hi Melody', cursive;
+  font-family: 'Sorts Mill Goudy', serif;
     font-size: 28px;
     text-decoration: underline
-  }
-  .mainHeading {
-  display: none;
   }
   .buttonLarge{
     display: none;
@@ -109,9 +106,9 @@ span {
     padding-top: 15%;
     color: white;
   }
-
-
-
+  .frameWorks{
+    display: none;
+  }
   /*Hero Image for Mobile Phones*/
   #hero {
     background-image: url(../img/bostonbg.jpeg);
@@ -134,11 +131,11 @@ span {
     background-repeat: no-repeat;
   }
   .descriptionPara{
-  font-family: 'Hi Melody', cursive;
-    font-size: 14px;
+  font-family: 'Sorts Mill Goudy', serif;
+    font-size: 16px;
     text-align: center;
-    width: 55%;
-    margin-left: 15%;
+    width: 70%;
+    margin-left: 18%;
   }
   .descriptionT{
     font-size: 14px;
@@ -146,13 +143,22 @@ span {
     padding-top: 13%;
     color: black;
   }
+  #history{
+    font-size: 18px;
+  }
+  #subLogo{
+    border-radius: 25px;
+    height: 250px;
+    width: 320px;
+    margin: 2%;
+  }
 }
 
 /*// Large devices (desktops, 992px and up)*/
 @media (min-width: 892px) {
   p {
     font-size: 33px;
-  font-family: 'Hi Melody', cursive;
+  font-family: 'Sorts Mill Goudy', serif;
   }
   .buttonSmall{
   display: none
@@ -172,28 +178,33 @@ span {
     margin-left: 3%;
   }
   .descriptionPara{
-  font-family: 'Hi Melody', cursive;
-    font-size: 16px;
-    width: 55%;
-    margin-left: 23%;
+  font-family: 'Sorts Mill Goudy', serif;
+    font-size: 14px;
+    width: 75;
+    margin-left: 15%;
     color: black;
   }
   .jobPara{
-  font-family: 'Hi Melody', cursive;
+  font-family: 'Sorts Mill Goudy', serif;
   font-size: 18px;
   text-align: left;
   }
   .subHeading{
-    font-size: 42px;
+    font-size: 28px;
   }
   #skills{
     width: 60%;
-    margin-left: 25%;
+    margin-left: 20%;
+  }
+  #subLogo{
+    border-radius: 25px;
+    height: 250px;
+    width: 320px;
+    margin: 2%;
   }
   .skillsp{
     font-size: 18px;
   }
-
   .img {
     border-radius: 25px;
   }
@@ -204,8 +215,6 @@ span {
     background-position: center;
     background-repeat: no-repeat;
   }
-
-
   #footer {
     width: 100%;
     height: 30px;
