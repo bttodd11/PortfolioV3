@@ -2,21 +2,28 @@
 body, html {
   height: 100%;
   margin: 0;
-  font-family: 'Sorts Mill Goudy', serif;
+  font-family: 'Karma', serif;
+}
+nav{
+  font-family: 'Karma', serif;
 }
 strong {
   font-weight: bolder;
-  font-size: 19px;
+  font-size: 24px;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+
 }
 #hero {
   background-image: url(img/bostonbg.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   height: 80%;
+  font-family: 'Karma', serif;
 }
 span {
   font-size: 30px;
-  font-family: 'Sorts Mill Goudy', serif;
+  font-family: 'Karma', serif;
   text-align: center;
   text-decoration: underline;
 }
@@ -24,6 +31,7 @@ span {
   color: black;
   font-size: 40px;
   text-align: center;
+  font-family: 'Karma', serif;
 }
 .buttonLarge{
   display: none;
@@ -35,14 +43,16 @@ span {
   opacity: .5;
   margin-left: 19%;
   color: white;
+  font-family: 'Karma', serif;
+
 }
 .subHeading {
-  font-family: 'Sorts Mill Goudy', serif;
+  font-family: 'Karma', serif;
   font-size: 18px;
   text-decoration: underline;
 }
 .descriptionPara{
-  font-family: 'Sorts Mill Goudy', serif;
+  font-family: 'Karma', serif;
   font-size: 14px;
 }
 #mainContent{
@@ -52,8 +62,9 @@ span {
   margin-top: 10%;
 }
 .mainHeading{
-  font-family: 'Sorts Mill Goudy', serif;
+  font-family: 'Karma', serif;
   font-size: 30px;
+  margin-top: 2%;
 }
 #logo{
   height: 95px;
@@ -72,6 +83,12 @@ span {
   border-left: 12px solid white;
   border-right: 12px solid white;
 }
+.contactCol{
+  border-style: solid;
+  border-width: 2px;
+  height: 500px;
+  
+}
 
 
 @media (max-width: 576px) {
@@ -80,23 +97,26 @@ span {
     background-position: center;
     background-repeat: no-repeat;
     height: 60%;
+    font-family: 'Karma', serif;
   }
   p {
     font-size: 18px;
-    font-family: 'Sorts Mill Goudy', serif;
+    font-family: 'Karma', serif;
     text-align: center;
   }
   .subHeading {
-  font-family: 'Sorts Mill Goudy', serif;
+  font-family: 'Karma', serif;
     font-size: 28px;
     text-decoration: underline
   }
   .buttonLarge{
     display: none;
+    font-family: 'Fredericka the Great', cursive;
   }
   .buttonSmall{
     margin: 2%;
     font-size: 18px;
+    font-family: 'Fredericka the Great', cursive;
   }
   .descriptionT{
     font-size: 16px;
@@ -105,6 +125,7 @@ span {
     opacity: .5;
     padding-top: 15%;
     color: white;
+    font-family: 'Karma', serif;
   }
   .frameWorks{
     display: none;
@@ -114,6 +135,7 @@ span {
     background-image: url(../img/bostonbg.jpeg);
     background-position: center;
     background-repeat: no-repeat;
+    font-family: 'Karma', serif;
   }
   #footer {
     width: 100%;
@@ -131,25 +153,27 @@ span {
     background-repeat: no-repeat;
   }
   .descriptionPara{
-  font-family: 'Sorts Mill Goudy', serif;
+  font-family: 'Karma', serif;
     font-size: 16px;
     text-align: center;
     width: 70%;
     margin-left: 18%;
   }
   .descriptionT{
-    font-size: 14px;
+    font-size: 16px;
     width: 250px;
     padding-top: 13%;
     color: black;
+    font-family: 'Karma', serif;
   }
   #history{
     font-size: 18px;
+    font-family: 'Karma', serif;
   }
   #subLogo{
     border-radius: 25px;
     height: 250px;
-    width: 320px;
+    width: 250px;
     margin: 2%;
   }
 }
@@ -158,7 +182,7 @@ span {
 @media (min-width: 892px) {
   p {
     font-size: 33px;
-  font-family: 'Sorts Mill Goudy', serif;
+  font-family: 'Karma', serif;
   }
   .buttonSmall{
   display: none
@@ -167,25 +191,28 @@ span {
     border: none;
     background-color: inherit;
     padding: 14px 28px;
-    font-size: 44px;
+    font-size:44px;
     cursor: pointer;
     display: inline-block;
+    font-family: 'Fredericka the Great', cursive;
+
   }
   .descriptionT{
     font-size: 22px;
     width: 300px;
     padding-top: 7%;
     margin-left: 3%;
+    font-family: 'Karma', serif;
   }
   .descriptionPara{
-  font-family: 'Sorts Mill Goudy', serif;
-    font-size: 14px;
+  font-family: 'Karma', serif;
+    font-size: 17px;
     width: 75;
     margin-left: 15%;
     color: black;
   }
   .jobPara{
-  font-family: 'Sorts Mill Goudy', serif;
+  font-family: 'Karma', serif;
   font-size: 18px;
   text-align: left;
   }
@@ -208,12 +235,22 @@ span {
   .img {
     border-radius: 25px;
   }
+  .frame{
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 25px;
+    margin-right: 7%;
+  }
+  .qualities{
+    font-size:18px;
+    margin-left: 25%;
+  }
 
   /*Hero Image for Desktop*/
   #hero {
     background-image: url(img/bostonbg.jpeg);
     background-position: center;
     background-repeat: no-repeat;
+    font-family: 'Karma', serif;
   }
   #footer {
     width: 100%;
