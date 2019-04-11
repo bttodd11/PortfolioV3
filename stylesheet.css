@@ -87,7 +87,8 @@ span {
   border-style: solid;
   border-width: 2px;
   height: 500px;
-  
+  font-size: 12px;
+ 
 }
 
 
@@ -243,6 +244,7 @@ span {
   .qualities{
     font-size:18px;
     margin-left: 25%;
+    font-family: 'Karma', serif;
   }
 
   /*Hero Image for Desktop*/
