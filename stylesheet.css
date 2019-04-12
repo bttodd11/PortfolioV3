@@ -88,6 +88,7 @@ span {
   border-width: 2px;
   height: 500px;
   font-size: 12px;
+  text-align: center;
  
 }
 
@@ -183,7 +184,7 @@ span {
 @media (min-width: 892px) {
   p {
     font-size: 33px;
-  font-family: 'Karma', serif;
+    font-family: 'Karma', serif;
   }
   .buttonSmall{
   display: none
@@ -243,9 +244,14 @@ span {
   }
   .qualities{
     font-size:18px;
-    margin-left: 25%;
     font-family: 'Karma', serif;
+    margin-top: 15%;
+    margin-right: 13%;
   }
+ .icon{
+   margin: 3%;
+  color: #162379;
+ }
 
   /*Hero Image for Desktop*/
   #hero {
