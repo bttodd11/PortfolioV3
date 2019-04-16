@@ -5,14 +5,16 @@ body, html {
   font-family: 'Karma', serif;
 }
 nav{
-  font-family: 'Karma', serif;
+  font-family: 'Handlee', cursive;
+}
+a:any-link{
+  color:black;
 }
 strong {
   font-weight: bolder;
   font-size: 24px;
   color: white;
-  text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
-
+  text-shadow: 1px 1px 2px 	#DAA520, 0 0 25px black, 0 0 5px black;
 }
 #hero {
   background-image: url(img/bostonbg.jpeg);
@@ -31,7 +33,7 @@ span {
   color: black;
   font-size: 40px;
   text-align: center;
-  font-family: 'Karma', serif;
+  font-family: 'Handlee', cursive;
 }
 .buttonLarge{
   display: none;
@@ -43,11 +45,10 @@ span {
   opacity: .5;
   margin-left: 19%;
   color: white;
-  font-family: 'Karma', serif;
-
+  font-family: 'Handlee', cursive;
 }
 .subHeading {
-  font-family: 'Karma', serif;
+  font-family: 'Handlee', cursive;
   font-size: 18px;
   text-decoration: underline;
 }
@@ -62,7 +63,7 @@ span {
   margin-top: 10%;
 }
 .mainHeading{
-  font-family: 'Karma', serif;
+  font-family: 'Handlee', cursive;
   font-size: 30px;
   margin-top: 2%;
 }
@@ -106,19 +107,21 @@ span {
     font-family: 'Karma', serif;
     text-align: center;
   }
+  a:any-link{
+    color:black;
+  }
   .subHeading {
-  font-family: 'Karma', serif;
+    font-family: 'Handlee', cursive;
     font-size: 28px;
     text-decoration: underline
   }
   .buttonLarge{
     display: none;
-    font-family: 'Fredericka the Great', cursive;
   }
   .buttonSmall{
     margin: 2%;
     font-size: 18px;
-    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Handlee', cursive;
   }
   .descriptionT{
     font-size: 16px;
@@ -127,7 +130,7 @@ span {
     opacity: .5;
     padding-top: 15%;
     color: white;
-    font-family: 'Karma', serif;
+    font-family: 'Handlee', cursive;
   }
   .frameWorks{
     display: none;
@@ -155,7 +158,7 @@ span {
     background-repeat: no-repeat;
   }
   .descriptionPara{
-  font-family: 'Karma', serif;
+    font-family: 'Karma', serif;
     font-size: 16px;
     text-align: center;
     width: 70%;
@@ -186,18 +189,18 @@ span {
     font-size: 33px;
     font-family: 'Karma', serif;
   }
+  a:any-link{
+    color:black;
+  }
   .buttonSmall{
   display: none
   }
   .buttonLarge{
-    border: none;
     background-color: inherit;
     padding: 14px 28px;
-    font-size:44px;
-    cursor: pointer;
+    font-family: 'Handlee', cursive;
+    font-size:40px;
     display: inline-block;
-    font-family: 'Fredericka the Great', cursive;
-
   }
   .descriptionT{
     font-size: 22px;
@@ -207,7 +210,7 @@ span {
     font-family: 'Karma', serif;
   }
   .descriptionPara{
-  font-family: 'Karma', serif;
+    font-family: 'Karma', serif;
     font-size: 17px;
     width: 75;
     margin-left: 15%;
@@ -238,19 +241,14 @@ span {
     border-radius: 25px;
   }
   .frame{
-    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Handlee', cursive;
     font-size: 25px;
     margin-right: 7%;
   }
-  .qualities{
-    font-size:18px;
-    font-family: 'Karma', serif;
-    margin-top: 15%;
-    margin-right: 13%;
-  }
+
  .icon{
    margin: 3%;
-  color: #162379;
+   color: #162379;
  }
 
   /*Hero Image for Desktop*/
@@ -258,7 +256,6 @@ span {
     background-image: url(img/bostonbg.jpeg);
     background-position: center;
     background-repeat: no-repeat;
-    font-family: 'Karma', serif;
   }
   #footer {
     width: 100%;
