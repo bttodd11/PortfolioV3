@@ -48,7 +48,7 @@ span {
   font-family: 'Handlee', cursive;
 }
 .subHeading {
-  font-family: 'Handlee', cursive;
+  font-family: 'Cormorant Garamond', serif;
   font-size: 18px;
   text-decoration: underline;
 }
@@ -60,7 +60,7 @@ span {
   text-align: center;
 }
 #subMainContent{
-  margin-top: 10%;
+  margin-top: 5%;
 }
 .mainHeading{
   font-family: 'Handlee', cursive;
@@ -111,7 +111,7 @@ span {
     color:black;
   }
   .subHeading {
-    font-family: 'Handlee', cursive;
+    font-family: 'Cormorant Garamond', serif;
     font-size: 28px;
     text-decoration: underline
   }
@@ -212,9 +212,10 @@ span {
   .descriptionPara{
     font-family: 'Karma', serif;
     font-size: 17px;
-    width: 75;
-    margin-left: 15%;
+    width: 80%;
+    margin-left: 10%;
     color: black;
+    margin-bottom: 3%;
   }
   .jobPara{
   font-family: 'Karma', serif;
@@ -223,6 +224,7 @@ span {
   }
   .subHeading{
     font-size: 28px;
+    font-family: 'Cormorant Garamond', serif;
   }
   #skills{
     width: 60%;
