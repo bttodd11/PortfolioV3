@@ -11,6 +11,11 @@ nav {
 a:any-link {
   color: black;
 }
+
+h2{
+  opacity: .1;
+  font-family: 'Annie Use Your Telescope', cursive;
+}
 strong {
   font-weight: bolder;
   font-size: 24px;
@@ -233,7 +238,7 @@ span {
     padding: 14px 28px;
     font-family: "Handlee", cursive;
     font-size: 40px;
-    display: inline-block;
+    display: none;
   }
   .descriptionT {
     font-size: 22px;
