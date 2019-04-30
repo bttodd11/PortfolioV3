@@ -12,9 +12,10 @@ a:any-link {
   color: black;
 }
 
-h2{
+.h2{
   opacity: .1;
   font-family: 'Annie Use Your Telescope', cursive;
+  text-shadow: 1px 1px 2px #daa520, 0 0 25px black, 0 0 5px black;
 }
 strong {
   font-weight: bolder;
