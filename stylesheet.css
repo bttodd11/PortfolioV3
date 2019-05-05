@@ -11,14 +11,13 @@ nav {
 a:any-link {
   color: black;
 }
-
 .port{
-  opacity: .3;
-  font-size:150px;
+  opacity: .9;
+  font-size:60px;
   font-family: 'Annie Use Your Telescope', cursive;
   text-shadow: 1px 1px 2px white, 0 0 25px #2D0B89, 0 0 5px white;
-  letter-spacing: 80px;
-  margin-left: 5%;
+  letter-spacing: 40px;
+  margin-left: 2%;
 
 }
 strong {
@@ -31,7 +30,7 @@ strong {
   background-image: url(img/bostonbg.jpeg);
   background-position: center;
   background-repeat: no-repeat;
-  height: 80%;
+  height: 85%;
   font-family: "Karma", serif;
 }
 span {
@@ -48,6 +47,7 @@ span {
 }
 .buttonLarge {
   display: none;
+
 }
 .descriptionT {
   font-size: 13px;
@@ -77,7 +77,11 @@ span {
   font-family: "Handlee", cursive;
   font-size: 30px;
   margin-top: 2%;
+  opacity: .3;
+  text-shadow: 1px 1px 2px #2042da7e, 0 0 25px black, 0 0 5px black;
+  letter-spacing: 10px;
 }
+
 #logo {
   height: 95px;
   width: 250px;
@@ -125,7 +129,7 @@ span {
     text-align: center;
   }
   a:any-link {
-    color: black;
+    color: white;
   }
   .subHeading {
     font-family: "Cormorant Garamond", serif;
@@ -134,11 +138,18 @@ span {
   }
   .buttonLarge {
     display: none;
+    border-radius: 8px;
+    font-size: 40px;
+    text-shadow: 1px 1px 2px #daa520, 0 0 25px #daa520, 0 0 5px white;
+    font-family: "Handlee", cursive;
+    background-color: transparent;
+    margin-top: 23%;
   }
   .buttonSmall {
     margin: 2%;
     font-size: 18px;
     font-family: "Handlee", cursive;
+    display: none;
   }
   .descriptionT {
     font-size: 13px;
