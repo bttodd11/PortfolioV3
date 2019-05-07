@@ -15,16 +15,16 @@ a:any-link {
   opacity: .9;
   font-size:60px;
   font-family: 'Annie Use Your Telescope', cursive;
-  text-shadow: 1px 1px 2px white, 0 0 25px #2D0B89, 0 0 5px white;
+  text-shadow: 1px 1px 2px #0206db9c, 0 0 25px #0206db9c, 0 0 5px white;
   letter-spacing: 40px;
   margin-left: 2%;
-
 }
 strong {
   font-weight: bolder;
   font-size: 24px;
   color: white;
   text-shadow: 1px 1px 2px #daa520, 0 0 25px black, 0 0 5px black;
+  letter-spacing: 3px;
 }
 #hero {
   background-image: url(img/bostonbg.jpeg);
@@ -75,13 +75,12 @@ span {
 }
 .mainHeading {
   font-family: "Handlee", cursive;
-  font-size: 30px;
+  font-size: 40px;
   margin-top: 2%;
   opacity: .3;
-  text-shadow: 1px 1px 2px #2042da7e, 0 0 25px black, 0 0 5px black;
+  text-shadow: 1px 1px 2px #0206db9c, 0 0 25px #0206db9c, 0 0 5px white;
   letter-spacing: 10px;
 }
-
 #logo {
   height: 95px;
   width: 250px;
@@ -114,7 +113,6 @@ span {
 #history {
   font-family: "Karma", serif;
 }
-
 @media (max-width: 576px) {
   #hero {
     background-image: url(img/bostonbg.jpeg);
@@ -150,6 +148,22 @@ span {
     font-size: 18px;
     font-family: "Handlee", cursive;
     display: none;
+  }
+  .mainHeading {
+    font-family: "Handlee", cursive;
+    font-size: 25px;
+    margin-top: 2%;
+    opacity: .3;
+    text-shadow: 1px 1px 2px #0206db9c, 0 0 25px #0206db9c, 0 0 5px white;
+    letter-spacing: 10px;
+  }
+  .mainHeading2{
+    font-family: "Handlee", cursive;
+    font-size: 20px;
+    margin-top: 4%;
+    opacity: .9;
+    text-shadow: 1px 1px 2px #0206db9c, 0 0 25px #0206db9c, 0 0 5px white;
+    letter-spacing: 10px;
   }
   .descriptionT {
     font-size: 13px;
@@ -283,6 +297,15 @@ span {
   #skills {
     width: 60%;
     margin-left: 20%;
+  }
+  .mainHeading2{
+    font-family: "Handlee", cursive;
+    font-size: 30px;
+    margin-top: 5%;
+
+    opacity: .4;
+    text-shadow: 1px 1px 2px #0206db9c, 0 0 25px #0206db9c, 0 0 5px white;
+    letter-spacing: 20px;
   }
   #subLogo {
     border-radius: 25px;
