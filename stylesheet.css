@@ -9,10 +9,10 @@ nav {
   font-family: "Handlee", cursive;
 }
 a:any-link {
-  color: black;
+  color: white
 }
 .port{
-  opacity: .9;
+  opacity: .7;
   font-size:60px;
   font-family: 'Annie Use Your Telescope', cursive;
   text-shadow: 1px 1px 2px #0206db9c, 0 0 25px #0206db9c, 0 0 5px white;
@@ -21,16 +21,16 @@ a:any-link {
 }
 strong {
   font-weight: bolder;
-  font-size: 24px;
-  color: white;
-  text-shadow: 1px 1px 2px #daa520, 0 0 25px black, 0 0 5px black;
+  font-size: 22px;
+  color: black;
+  text-shadow: 1px 1px 2px #bee727, 0 0 25px #bee727, 0 0 5px black;
   letter-spacing: 3px;
 }
 #hero {
   background-image: url(img/bostonbg.jpeg);
   background-position: center;
   background-repeat: no-repeat;
-  height: 85%;
+  height: 95%;
   font-family: "Karma", serif;
 }
 span {
@@ -42,20 +42,32 @@ span {
 .heroT {
   color: black;
   font-size: 40px;
+  margin-top: 8%;
   text-align: center;
   font-family: "Handlee", cursive;
 }
 .buttonLarge {
   display: none;
-
+  font-size: 25px;
+  color: white;
+  text-shadow: 1px 1px 2px #bee727, 0 0 25px #bee727, 0 0 5px white;
+  font-family: "Handlee", cursive;
+  background-color: transparent;
+  border-style: none;
+}
+.buttonSmall {
+  margin: 2%;
+  font-size: 18px;
+  font-family: "Handlee", cursive;
+  display: none;
 }
 .descriptionT {
-  font-size: 13px;
+  font-size: 14px;
   width: 160px;
   padding-top: 1%;
   opacity: 0.8;
   margin-left: 20%;
-  color: white;
+  color: black;
   font-family: "Handlee", cursive;
 }
 .subHeading {
@@ -118,12 +130,16 @@ span {
 #history {
   font-family: "Karma", serif;
 }
+.skillsp {
+  font-size: 18px;
+  font-family: 'Indie Flower', cursive;
+}
 @media (max-width: 576px) {
   #hero {
     background-image: url(img/bostonbg.jpeg);
     background-position: center;
     background-repeat: no-repeat;
-    height: 60%;
+    height: 85%;
     font-family: "Karma", serif;
   }
   p {
@@ -132,7 +148,7 @@ span {
     text-align: center;
   }
   a:any-link {
-    color: white;
+    color:black;
   }
   .subHeading {
     font-family: "Cormorant Garamond", serif;
@@ -140,13 +156,13 @@ span {
   }
   .buttonLarge {
     display: none;
-    border-radius: 8px;
-    border: 3px solid #daa520;
-    font-size: 30px;
-    text-shadow: 1px 1px 2px #daa520, 0 0 25px #daa520, 0 0 5px white;
+    color:white;
+    font-size: 28px;
+    text-shadow: 1px 1px 2px #bee727, 0 0 25px #bee727, 0 0 5px white;
     font-family: "Handlee", cursive;
     background-color: transparent;
-    margin-top: 15%;
+    margin-top: 5%;
+    border-style:none;
   }
   .buttonSmall {
     margin: 2%;
@@ -171,19 +187,16 @@ span {
     letter-spacing: 10px;
   }
   .descriptionT {
-    font-size: 13px;
+    font-size: 19px;
     width: 170px;
     margin-left: 1%;
     opacity: 0.5;
-    padding-top: 15%;
-    color: white;
     font-family: "Handlee", cursive;
   }
   #history {
     font-size: 18px;
     font-family: "Karma", serif;
   }
-
   .frameWorks {
     display: none;
   }
@@ -195,20 +208,33 @@ span {
     font-family: "Karma", serif;
   }
   .descriptionT {
-    font-size: 15px;
-    width: 200px;
-    padding-top: 1%;
+    font-size: 16px;
+    width: 181px;
+    padding-top: 22%;
     color: white;
     font-family: "Karma", serif;
-    opacity: 0.8;
+    opacity: 0.9;
+    font-weight: 900;
   }
-
+  strong {
+    font-weight: bolder;
+    font-size: 21px;
+    color: white;
+    text-shadow: 1px 1px 2px #bee727, 0 0 25px #bee727, 0 0 5px black;
+    letter-spacing: 3px;
+  }
   .descriptionPara {
     font-family: "Karma", serif;
     font-size: 14px;
     text-align: center;
     width: 90%;
     margin-left: 5%;
+  }
+    .buttonSmall {
+    margin: 2%;
+    font-size: 18px;
+    font-family: "Handlee", cursive;
+    display: none;
   }
   #footer {
     width: 100%;
@@ -224,6 +250,9 @@ span {
     background-image: url(img/bostonbg.jpeg);
     background-position: center;
     background-repeat: no-repeat;
+  }
+  a:any-link {
+    color: white;
   }
   .descriptionPara {
     font-family: "Karma", serif;
@@ -259,25 +288,34 @@ span {
 /*// Large devices (desktops, 992px and up)*/
 @media (min-width: 892px) {
   p {
-    font-size: 33px;
+    font-size: 28px;
     font-family: "Karma", serif;
   }
+  strong {
+    font-weight: bolder;
+    font-size: 35px;
+    color: white;
+    text-shadow: 1px 1px 2px #bee727, 0 0 25px #bee727, 0 0 5px black;
+    letter-spacing: 3px;
+  }
   a:any-link {
-    color: black;
+    color: #bee727;
   }
   .buttonSmall {
     display: none;
   }
   .buttonLarge {
-    background-color: inherit;
-    padding: 14px 28px;
-    font-family: "Handlee", cursive;
-    font-size: 40px;
     display: none;
+    font-size: 45px;
+    color: white;
+    text-shadow: 1px 1px 2px #bee727, 0 0 25px #bee727, 0 0 5px white;
+    font-family: "Handlee", cursive;
+    background-color: transparent;
+    border-style: none;
   }
   .descriptionT {
-    font-size: 22px;
-    width: 300px;
+    font-size: 25px;
+    width: 350px;
     padding-top: 7%;
     margin-left: 3%;
     font-family: "Karma", serif;
@@ -289,6 +327,13 @@ span {
     margin-left: 10%;
     color: black;
     margin-bottom: 3%;
+  }
+  .heroT {
+    color: black;
+    font-size: 60px;
+    margin-top: 1%;
+    text-align: center;
+    font-family: "Handlee", cursive;
   }
   .jobPara {
     font-family: "Karma", serif;
@@ -309,6 +354,7 @@ span {
     margin-top: 3%;
     text-align: center;
     opacity: .4;
+    font-weight: 900;
     text-shadow: 1px 1px 2px #0206db9c, 0 0 25px #0206db9c, 0 0 5px white;
     letter-spacing: 50px;
     margin-left: 2%;
@@ -351,5 +397,15 @@ span {
 
   /*// Extra large devices (large desktops, 1200px and up)*/
   @media (min-width: 1200px) {
+    p {
+    font-size: 30px;
+    font-family: "Karma", serif;
   }
-}
+  strong {
+    font-weight: bolder;
+    font-size: 35px;
+    color: white;
+    text-shadow: 1px 1px 2px #bee727, 0 0 25px #bee727, 0 0 5px black;
+    letter-spacing: 3px;
+  }
+  }
