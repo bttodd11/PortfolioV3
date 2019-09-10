@@ -15,22 +15,23 @@ a:any-link {
   opacity: .7;
   font-size:60px;
   font-family: 'Annie Use Your Telescope', cursive;
-  text-shadow: 1px 1px 2px #0206db9c, 0 0 25px #0206db9c, 0 0 5px white;
+  text-shadow: 1px 1px 2px #950F0F, 0 0 25px #950F0F, 0 0 5px #950F0F;
   letter-spacing: 40px;
   margin-left: 2%;
+  text-decoration: underline;
 }
 strong {
   font-weight: bolder;
   font-size: 22px;
   color: black;
-  text-shadow: 1px 1px 2px #bee727, 0 0 25px #bee727, 0 0 5px black;
+  text-shadow: 1px 1px 2px #CB6810, 0 0 25px #CB6810, 0 0 5px black;
   letter-spacing: 3px;
 }
 #hero {
   background-image: url(img/bostonbg.jpeg);
   background-position: center;
   background-repeat: no-repeat;
-  height: 95%;
+  height: 100%;
   font-family: "Karma", serif;
 }
 span {
@@ -46,11 +47,18 @@ span {
   text-align: center;
   font-family: "Handlee", cursive;
 }
+#quote {
+  text-align: center;
+  font-family: 'Tangerine', cursive;
+  font-size: 16px;
+  letter-spacing: 3px;
+  opacity: .4;
+}
 .buttonLarge {
   display: none;
   font-size: 25px;
   color: white;
-  text-shadow: 1px 1px 2px #bee727, 0 0 25px #bee727, 0 0 5px white;
+  text-shadow: 1px 1px 2px #CB6810, 0 0 25px #CB6810, 0 0 5px white;
   font-family: "Handlee", cursive;
   background-color: transparent;
   border-style: none;
@@ -62,7 +70,7 @@ span {
   display: none;
 }
 .descriptionT {
-  font-size: 14px;
+  font-size: 18px;
   width: 160px;
   padding-top: 1%;
   opacity: 0.8;
@@ -89,7 +97,7 @@ span {
   font-size: 40px;
   margin-top: 2%;
   opacity: .3;
-  text-shadow: 1px 1px 2px #0206db9c, 0 0 25px #0206db9c, 0 0 5px white;
+  text-shadow: 1px 1px 2px #950F0F, 0 0 25px #950F0F, 0 0 25px white;
   letter-spacing: 10px;
 }
 .mainHeading2{
@@ -97,7 +105,7 @@ span {
   font-size: 20px;
   margin-top: 4%;
   opacity: .4;
-  text-shadow: 1px 1px 2px #0206db9c, 0 0 25px #0206db9c, 0 0 5px white;
+  text-shadow: 1px 1px 2px #950F0F, 0 0 25px #950F0F, 0 0 5px black;
   letter-spacing: 10px;
 }
 #logo {
@@ -139,7 +147,7 @@ span {
     background-image: url(img/bostonbg.jpeg);
     background-position: center;
     background-repeat: no-repeat;
-    height: 85%;
+    height: 100%;
     font-family: "Karma", serif;
   }
   p {
@@ -158,7 +166,7 @@ span {
     display: none;
     color:white;
     font-size: 28px;
-    text-shadow: 1px 1px 2px #bee727, 0 0 25px #bee727, 0 0 5px white;
+    text-shadow: 1px 1px 2px #CB6810, 0 0 25px #CB6810, 0 0 5px white;
     font-family: "Handlee", cursive;
     background-color: transparent;
     margin-top: 5%;
@@ -175,7 +183,7 @@ span {
     font-size: 25px;
     margin-top: 2%;
     opacity: .3;
-    text-shadow: 1px 1px 2px #0206db9c, 0 0 25px #0206db9c, 0 0 5px white;
+    text-shadow: 1px 1px 2px #950F0F, 0 0 25px #950F0F, 0 0 25px white;
     letter-spacing: 10px;
   }
   .mainHeading2{
@@ -183,7 +191,7 @@ span {
     font-size: 20px;
     margin-top: 4%;
     opacity: .4;
-    text-shadow: 1px 1px 2px #0206db9c, 0 0 25px #0206db9c, 0 0 5px white;
+    text-shadow: 1px 1px 2px #950F0F, 0 0 25px #950F0F, 0 0 5px white;
     letter-spacing: 10px;
   }
   .descriptionT {
@@ -200,17 +208,10 @@ span {
   .frameWorks {
     display: none;
   }
-  /*Mobile Phones*/
-  #hero {
-    background-image: url(../img/bostonbg.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-    font-family: "Karma", serif;
-  }
   .descriptionT {
     font-size: 16px;
     width: 181px;
-    padding-top: 22%;
+    padding-top: 20%;
     color: white;
     font-family: "Karma", serif;
     opacity: 0.9;
@@ -220,7 +221,7 @@ span {
     font-weight: bolder;
     font-size: 21px;
     color: white;
-    text-shadow: 1px 1px 2px #bee727, 0 0 25px #bee727, 0 0 5px black;
+    text-shadow: 1px 1px 2px #CB6810, 0 0 25px #CB6810, 0 0 5px black;
     letter-spacing: 3px;
   }
   .descriptionPara {
@@ -291,15 +292,26 @@ span {
     font-size: 28px;
     font-family: "Karma", serif;
   }
+  #quote {
+    text-align: center;
+    font-family: 'Tangerine', cursive;
+    font-size: 26px;
+  }
   strong {
     font-weight: bolder;
     font-size: 35px;
     color: white;
-    text-shadow: 1px 1px 2px #bee727, 0 0 25px #bee727, 0 0 5px black;
+    text-shadow: 1px 1px 2px #CB6810, 0 0 25px #CB6810, 0 0 5px black;
     letter-spacing: 3px;
   }
+  #hero {
+    background-image: url(img/bostonbg.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90%;
+  }
   a:any-link {
-    color: #bee727;
+    color: #CB6810;
   }
   .buttonSmall {
     display: none;
@@ -308,7 +320,7 @@ span {
     display: none;
     font-size: 45px;
     color: white;
-    text-shadow: 1px 1px 2px #bee727, 0 0 25px #bee727, 0 0 5px white;
+    text-shadow: 1px 1px 2px #CB6810, 0 0 25px #CB6810, 0 0 5px white;
     font-family: "Handlee", cursive;
     background-color: transparent;
     border-style: none;
@@ -345,8 +357,8 @@ span {
     font-family: "Cormorant Garamond", serif;
   }
   #skills {
-    width: 60%;
-    margin-left: 20%;
+    width: 80%;
+    margin-left: 10%;
   }
   .mainHeading2{
     font-family: "Handlee", cursive;
@@ -355,8 +367,8 @@ span {
     text-align: center;
     opacity: .4;
     font-weight: 900;
-    text-shadow: 1px 1px 2px #0206db9c, 0 0 25px #0206db9c, 0 0 5px white;
-    letter-spacing: 50px;
+    text-shadow: 1px 1px 2px #950F0F, 0 0 25px #950F0F, 0 0 5px white;
+    letter-spacing: 15px;
     margin-left: 2%;
   }
   #subLogo {
@@ -383,12 +395,6 @@ span {
     color: #162379;
   }
 
-  /*Hero Image for Desktop*/
-  #hero {
-    background-image: url(img/bostonbg.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-  }
   #footer {
     width: 100%;
     height: 30px;
@@ -405,7 +411,7 @@ span {
     font-weight: bolder;
     font-size: 35px;
     color: white;
-    text-shadow: 1px 1px 2px #bee727, 0 0 25px #bee727, 0 0 5px black;
+    text-shadow: 1px 1px 2px #CB6810, 0 0 25px #CB6810, 0 0 5px black;
     letter-spacing: 3px;
   }
   }
