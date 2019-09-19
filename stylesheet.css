@@ -15,6 +15,7 @@ a:any-link {
   opacity: .7;
   font-size:60px;
   font-family: 'Annie Use Your Telescope', cursive;
+  color: #CB6810;
   text-shadow: 1px 1px 2px #950F0F, 0 0 25px #950F0F, 0 0 5px #950F0F;
   letter-spacing: 40px;
   margin-left: 2%;
@@ -96,15 +97,17 @@ span {
   font-family: "Handlee", cursive;
   font-size: 40px;
   margin-top: 2%;
-  opacity: .3;
+  opacity: .7;
   text-shadow: 1px 1px 2px #950F0F, 0 0 25px #950F0F, 0 0 25px white;
   letter-spacing: 10px;
+  color: #CB6810;
 }
 .mainHeading2{
   font-family: "Handlee", cursive;
   font-size: 20px;
+  color: #CB6810;
   margin-top: 4%;
-  opacity: .4;
+  opacity: .7;
   text-shadow: 1px 1px 2px #950F0F, 0 0 25px #950F0F, 0 0 5px black;
   letter-spacing: 10px;
 }
@@ -181,16 +184,18 @@ span {
   .mainHeading {
     font-family: "Handlee", cursive;
     font-size: 25px;
+    color: #CB6810;
     margin-top: 2%;
-    opacity: .3;
-    text-shadow: 1px 1px 2px #950F0F, 0 0 25px #950F0F, 0 0 25px white;
+    opacity: .8;
+    text-shadow: 1px 1px 2px #950F0F, 0 0 25px #950F0F, 0 0 25px #CB6810;
     letter-spacing: 10px;
   }
   .mainHeading2{
     font-family: "Handlee", cursive;
     font-size: 20px;
+    color: #CB6810;
     margin-top: 4%;
-    opacity: .4;
+    opacity: .7;
     text-shadow: 1px 1px 2px #950F0F, 0 0 25px #950F0F, 0 0 5px white;
     letter-spacing: 10px;
   }
@@ -365,7 +370,7 @@ span {
     font-size: 40px;
     margin-top: 3%;
     text-align: center;
-    opacity: .4;
+    opacity: .7;
     font-weight: 900;
     text-shadow: 1px 1px 2px #950F0F, 0 0 25px #950F0F, 0 0 5px white;
     letter-spacing: 15px;
