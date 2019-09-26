@@ -5,6 +5,15 @@ html {
   margin: 0;
   font-family: "Karma", serif;
 }
+#mainBack{
+  background-image: url(img/mainBack2.JPG);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 180%;
+  background-size: cover;
+
+ 
+}
 nav {
   font-family: "Handlee", cursive;
 }
@@ -82,6 +91,8 @@ span {
 .subHeading {
   font-family: "Cormorant Garamond", serif;
   font-size: 28px;
+  color: black !important;
+  
 }
 .descriptionPara {
   font-family: "Karma", serif;
