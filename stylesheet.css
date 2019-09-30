@@ -10,25 +10,14 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   height: 180%;
+  margin: 0%;
   background-size: cover;
-
- 
 }
 nav {
   font-family: "Handlee", cursive;
 }
 a:any-link {
   color: white
-}
-.port{
-  opacity: .7;
-  font-size:60px;
-  font-family: 'Annie Use Your Telescope', cursive;
-  color: #CB6810;
-  text-shadow: 1px 1px 2px #950F0F, 0 0 25px #950F0F, 0 0 5px #950F0F;
-  letter-spacing: 40px;
-  margin-left: 2%;
-  text-decoration: underline;
 }
 strong {
   font-weight: bolder;
@@ -41,7 +30,7 @@ strong {
   background-image: url(img/bostonbg.jpeg);
   background-position: center;
   background-repeat: no-repeat;
-  height: 100%;
+  height: 70%;
   font-family: "Karma", serif;
 }
 span {
@@ -62,7 +51,7 @@ span {
   font-family: 'Tangerine', cursive;
   font-size: 16px;
   letter-spacing: 3px;
-  opacity: .4;
+  opacity: .5;
 }
 .buttonLarge {
   display: none;
@@ -88,80 +77,17 @@ span {
   color: black;
   font-family: "Handlee", cursive;
 }
-.subHeading {
-  font-family: "Cormorant Garamond", serif;
-  font-size: 28px;
-  color: black !important;
-  
-}
-.descriptionPara {
-  font-family: "Karma", serif;
-  font-size: 13px;
-}
-#mainContent {
-  text-align: center;
-}
-#subMainContent {
-  margin-top: 5%;
-}
-.mainHeading {
-  font-family: "Handlee", cursive;
-  font-size: 40px;
-  margin-top: 2%;
-  opacity: .7;
-  text-shadow: 1px 1px 2px #950F0F, 0 0 25px #950F0F, 0 0 25px white;
-  letter-spacing: 10px;
-  color: #CB6810;
-}
-.mainHeading2{
-  font-family: "Handlee", cursive;
-  font-size: 20px;
-  color: #CB6810;
-  margin-top: 4%;
-  opacity: .7;
-  text-shadow: 1px 1px 2px #950F0F, 0 0 25px #950F0F, 0 0 5px black;
-  letter-spacing: 10px;
-}
-#logo {
-  height: 95px;
-  width: 250px;
-}
-#subLogo {
-  border-radius: 25px;
-  height: 250px;
-  width: 320px;
-  margin: 2%;
-}
 #footer {
   width: 100%;
-  height: 40px;
+  height: 20px;
   margin-top: 2%;
-}
-.contactCol {
-  border-style: solid;
-  border-width: 2px;
-  height: 500px;
-  font-size: 12px;
-  text-align: center;
-}
-.frame {
-  font-family: "Handlee", cursive;
-  font-size: 15px;
-  margin-right: 7%;
-}
-#history {
-  font-family: "Karma", serif;
-}
-.skillsp {
-  font-size: 18px;
-  font-family: 'Indie Flower', cursive;
 }
 @media (max-width: 576px) {
   #hero {
     background-image: url(img/bostonbg.jpeg);
     background-position: center;
     background-repeat: no-repeat;
-    height: 100%;
+    height: 90%;
     font-family: "Karma", serif;
   }
   p {
@@ -172,10 +98,7 @@ span {
   a:any-link {
     color:black;
   }
-  .subHeading {
-    font-family: "Cormorant Garamond", serif;
-    font-size: 23px;
-  }
+
   .buttonLarge {
     display: none;
     color:white;
@@ -192,24 +115,6 @@ span {
     font-family: "Handlee", cursive;
     display: none;
   }
-  .mainHeading {
-    font-family: "Handlee", cursive;
-    font-size: 25px;
-    color: #CB6810;
-    margin-top: 2%;
-    opacity: .8;
-    text-shadow: 1px 1px 2px #950F0F, 0 0 25px #950F0F, 0 0 25px #CB6810;
-    letter-spacing: 10px;
-  }
-  .mainHeading2{
-    font-family: "Handlee", cursive;
-    font-size: 20px;
-    color: #CB6810;
-    margin-top: 4%;
-    opacity: .7;
-    text-shadow: 1px 1px 2px #950F0F, 0 0 25px #950F0F, 0 0 5px white;
-    letter-spacing: 10px;
-  }
   .descriptionT {
     font-size: 19px;
     width: 170px;
@@ -217,13 +122,7 @@ span {
     opacity: 0.5;
     font-family: "Handlee", cursive;
   }
-  #history {
-    font-size: 18px;
-    font-family: "Karma", serif;
-  }
-  .frameWorks {
-    display: none;
-  }
+
   .descriptionT {
     font-size: 16px;
     width: 181px;
@@ -240,13 +139,7 @@ span {
     text-shadow: 1px 1px 2px #CB6810, 0 0 25px #CB6810, 0 0 5px black;
     letter-spacing: 3px;
   }
-  .descriptionPara {
-    font-family: "Karma", serif;
-    font-size: 14px;
-    text-align: center;
-    width: 90%;
-    margin-left: 5%;
-  }
+
     .buttonSmall {
     margin: 2%;
     font-size: 18px;
@@ -255,7 +148,7 @@ span {
   }
   #footer {
     width: 100%;
-    height: 40px;
+    height: 20px;
     color: #b3b3c0;
   }
 }
@@ -271,34 +164,13 @@ span {
   a:any-link {
     color: white;
   }
-  .descriptionPara {
-    font-family: "Karma", serif;
-    font-size: 16px;
-    text-align: center;
-    width: 70%;
-    margin-left: 18%;
-  }
+
   .descriptionT {
     font-size: 16px;
     width: 250px;
     padding-top: 13%;
     color: black;
     font-family: "Karma", serif;
-  }
-  #history {
-    font-size: 18px;
-    font-family: "Karma", serif;
-  }
-  #subLogo {
-    border-radius: 25px;
-    height: 250px;
-    width: 250px;
-    margin: 2%;
-  }
-  .frame {
-    font-family: "Handlee", cursive;
-    font-size: 25px;
-    margin-right: 7%;
   }
 }
 
@@ -311,7 +183,16 @@ span {
   #quote {
     text-align: center;
     font-family: 'Tangerine', cursive;
-    font-size: 34px;
+    font-size: 24px;
+    width: 40%;
+    margin-left: 30%;
+  }
+  .descriptionMain{
+    font-size: 16px;
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+
   }
   strong {
     font-weight: bolder;
@@ -324,7 +205,7 @@ span {
     background-image: url(img/bostonbg.jpeg);
     background-position: center;
     background-repeat: no-repeat;
-    height: 90%;
+    height: 70%;
   }
   a:any-link {
     color: #CB6810;
@@ -348,14 +229,28 @@ span {
     margin-left: 3%;
     font-family: "Karma", serif;
   }
-  .descriptionPara {
+  #intro{
+    font-size: 40px;
+    text-align: center;
     font-family: "Karma", serif;
-    font-size: 17px;
-    width: 80%;
-    margin-left: 10%;
-    color: black;
-    margin-bottom: 3%;
   }
+  h3{
+    text-decoration: underline;
+    letter-spacing: 13px;
+    text-align: center;
+  }
+  ul{
+    font-size: 15px;
+    text-align: center;
+    padding-right: 4%;
+    letter-spacing: 3px;
+  }
+  h4{
+    font-size: 30px;
+    text-align: center;
+    font-family: "Karma", serif;
+  }
+
   .heroT {
     color: black;
     font-size: 60px;
@@ -363,49 +258,6 @@ span {
     text-align: center;
     font-family: "Handlee", cursive;
   }
-  .jobPara {
-    font-family: "Karma", serif;
-    font-size: 18px;
-    text-align: left;
-  }
-  .subHeading {
-    font-size: 28px;
-    font-family: "Cormorant Garamond", serif;
-  }
-  #skills {
-    width: 80%;
-    margin-left: 10%;
-  }
-  .mainHeading2{
-    font-family: "Handlee", cursive;
-    font-size: 40px;
-    margin-top: 3%;
-    text-align: center;
-    opacity: .7;
-    font-weight: 900;
-    text-shadow: 1px 1px 2px #950F0F, 0 0 25px #950F0F, 0 0 5px white;
-    letter-spacing: 15px;
-    margin-left: 2%;
-  }
-  #subLogo {
-    border-radius: 25px;
-    height: 250px;
-    width: 320px;
-    margin: 2%;
-  }
-  .skillsp {
-    font-size: 18px;
-    font-family: 'Indie Flower', cursive;
-  }
-  .img {
-    border-radius: 25px;
-  }
-  .frame {
-    font-family: "Handlee", cursive;
-    font-size: 25px;
-    margin-right: 7%;
-  }
-
   .icon {
     margin: 3%;
     color: #162379;
@@ -413,7 +265,7 @@ span {
 
   #footer {
     width: 100%;
-    height: 30px;
+    height: 20px;
     color: #b3b3c0;
   }
 

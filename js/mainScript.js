@@ -1,8 +1,17 @@
 
-$(document).ready(function(){
-$(".port").animate({opacity:.5},2500).animate({fontSize:"60px"}).animate({letterSpacing:"10px"});
-$(".skillsp").animate({fontSize:"30px"},1500).animate({letterSpacing:"5px"}).animate({opacity:.7},1000);
-});
+var i = 0;
+var txt = 'About Me' ;
+var speed = 70;
+
+function typeWriter(){
+    if ( i < txt.length){
+        document.getElementById("intro").innerHTML += txt.charAt(i);
+        i++;
+        setTimeout(typeWriter, speed);
+    }
+}
+
+    
 
 
 

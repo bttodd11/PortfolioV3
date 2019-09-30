@@ -9,7 +9,7 @@
 <link
   href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Karma|Handlee|Cormorant+Garamond|Annie+Use+Your+Telescope|Indie+Flower"
   rel="stylesheet">
-  <!-- UIkit CSS -->
+<!-- UIkit CSS -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
   integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.30/css/uikit.min.css" />
@@ -35,138 +35,72 @@
 </nav>
 </head>
 
-<body id ="mainBack">
+<body onload="typeWriter()" id="mainBack">
   <!-- Page content -->
-  <div id="mainContent">
-    <div id="subMainContent">
-        <h2 class="port">Freelance Projects</h2>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-sm-12 col-md-4 col-lg-4">
-            <a href="https://github.com/bttodd11/SkillsFund">
-              <h5 class="subHeading">SkillsFund Mock Up</h5>
-            </a>
-            <img id="subLogo" src="../img/skills.png" alt="">
-            <p class="descriptionPara">This is a mockup site that I created for the company during an interview. The
-              company wanted a strategically designed site to get
-              customer to sign up for their mailing list. I utilized bootstrap and jQuery for this site.
-            </p>
-          </div>
-          </p>
-          <div class="col-sm-12 col-md-4 col-lg-4>">
-            <a href="https://github.com/bttodd11/Ballot">
-              <h5 class="subHeading">Gary Sheffield Ballot</h5>
-            </a>
-            <img id="subLogo" src="../img/mlb.png" alt="">
-            <p class="descriptionPara">This is a ballot to get Gary Sheffield's name into the MLB hall of fame.
-              With this project, I wanted to test using a database and also wanted to try out PHP. I used MySQL and was
-              able to push and get data from users that signed the ballot.
-            </p>
-          </div>
+  <div>
 
-          <div class="col-sm-12 col-md-4 col-lg-4">
-            <a href="https://www.ericthechosen.com">
-              <h5 class="subHeading">EricTheChosen</h5>
-            </a>
-            <img id="subLogo" src="../img/ETC.png" alt="">
-            <p class="descriptionPara">This is a site that I made for hip-hop artist EricTheChosen. I was
-              given free reign to 
-              build the site with just being given content to use. I used JavaScript, Bootstrap and Sass
-              on this site.
-            </p>
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Document</title>
+    </head>
+
+    <body>
+      <h6 id="intro"></h6>
+      <p class="descriptionMain">My name is Brian Todd(AKA B.Todd), I am a software developer from Austin,TX. I've build
+        websites, web applications and also software. I enjoy learning
+        new technologies and also finding solutions to complex problems </p>
+      <h6 id="intro">Technologies</h6>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-6">
+            <h3>Front-End </h3>
+            <ul>HTML</ul>
+            <ul>CSS</ul>
+            <ul>AngularJS</ul>
+            <ul>React</ul>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-6">
+           <h3>Back-End</h3>
+           <ul>JavaScript</ul>
+           <ul>PHP</ul>
+           <ul>Java(newbie)</ul>
           </div>
         </div>
       </div>
-      <div id="history">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-12">
-              <h2 class="mainHeading">Technical Experience</h2>
-            </div>
-            <div class="row" style="margin-top:3%;">
-              <div class="col-sm-12 col-md-4">
-                <h5 class="subHeading">Siemens RCS
-                  <br> Austin , Texas <br>
-                  Feb 2014 - Current
-                </h5>
-              </div>
-              <div class="col-sm-12 col-md-4">
-                - Developed and implemented feature requests made by the operations team to make tasks easier,
-                these features were made using AngularJS and helped with standardizing globals to eliminate user error.
-                <br>
-                <br>
-                - Became proficient with command line tools such as Git for version control and collaboration.
-                <br>
-                <br>
-                - Refactored previous application code for readability to ensure that the code was precise and easy to follow for all
-                developers.
-                <br>
-                <br>
-                - Validated user input client-side by creating JavaScript functions to test inputs and alert users when passed data 
-                is not valid.
-                <br>
-                <br>
-                - Created training documentation for feature/software releases and presented this information to the operations team.
-                <br>
-                <br>
-                - Contributed to the product roadmap for future software releases by presenting a business case on how the new features 
-                can generate revenue and cut down operational cost.
-                <br>
-                <br>
-                - Gave weekly updates to stakeholders to make certain that the software is compliant with the clients needs.
-              </div>
-              <div class="frameWorks col-sm-12 col-md-4">
-                <h5 style="text-decoration:underline;" class="subHeading">
-                  Frameworks
-                </h5>
-                <ul class="frame" style="color:red;">
-                  AngularJS
-                </ul>
-                <ul class="frame" style="color:blue">
-                  React
-                </ul>
-                <ul class="frame" style="color:purple">
-                  Bootstrap
-                </ul>
-                <ul class="frame" style="color:orange">
-                  Redux</ul>
-                <ul class="frame" style="color:lightblue">
-                  UIkit
-                </ul>
-                </li>
-              </div>
-            </div>
-          </div>
-        </div>
+      <div id="workExp">
+      <h6 id="intro">Work Experience</h6>
+      <h4>Siemens RCS</h4>
+      <h5>Software Developer</h5>
+      <h5>Austin, Texas</h5>
       </div>
-      <div>
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-sm-12 col-md-12">
-              <h2 class="mainHeading2">Current Motivation</h2>
-              <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="250" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/the-miseducation-of-lauryn-hill/1276760743?app=music"></iframe>
-            </div>
-          </div>
-          <div style="margin-top: 3%;" class="col-sm-12 col-md-12 ">
-            <a style="color:#CB6810; opacity: .6;" href="https://www.linkedin.com/in/bttodd/" uk-icon="icon: linkedin; ratio:1"></a> 
-            <a style="color:#CB6810; opacity: .6;" href="https://github.com/bttodd11" uk-icon="icon: github; ratio:1"></a> 
-            <a style="color:#CB6810; opacity: .6;" href="https://www.instagram.com/bttodd11/" uk-icon="icon: instagram; ratio:1"></a> 
-           <a style="color:#CB6810; opacity: .6;" href="mailto:bttodd@icloud.com" uk-icon="icon: mail; ratio:1"></a> <br>
-           </div>
-        </div>
+    </body>
+
+</html>
+</div>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-12 col-md-12">
     </div>
   </div>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="js/mainScript.js"></script>
+  <div style="margin-top: 3%;" class="col-sm-12 col-md-12 ">
+    <a style="color:#CB6810; opacity: .6;" href="https://www.linkedin.com/in/bttodd/"
+      uk-icon="icon: linkedin; ratio:1"></a>
+    <a style="color:#CB6810; opacity: .6;" href="https://github.com/bttodd11" uk-icon="icon: github; ratio:1"></a>
+    <a style="color:#CB6810; opacity: .6;" href="https://www.instagram.com/bttodd11/"
+      uk-icon="icon: instagram; ratio:1"></a>
+    <a style="color:#CB6810; opacity: .6;" href="mailto:bttodd@icloud.com" uk-icon="icon: mail; ratio:1"></a> <br>
+  </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/mainScript.js"></script>
 </body>
 <div id="footer">
   <small>&copy; Copyright 2019, Brian Todd</small>
