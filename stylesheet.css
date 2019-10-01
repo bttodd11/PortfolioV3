@@ -222,6 +222,7 @@ span {
     background-color: transparent;
     border-style: none;
   }
+
   .descriptionT {
     font-size: 25px;
     width: 350px;
@@ -232,7 +233,7 @@ span {
   #intro{
     font-size: 40px;
     text-align: center;
-    font-family: "Karma", serif;
+    font-family: "Handlee", cursive;
   }
   h3{
     text-decoration: underline;
@@ -244,13 +245,27 @@ span {
     text-align: center;
     padding-right: 4%;
     letter-spacing: 3px;
+    font-family: 'Raleway', sans-serif;
   }
   h4{
     font-size: 30px;
     text-align: center;
-    font-family: "Karma", serif;
   }
-
+  .mainText{
+    font-size: 19px;
+    font-family: 'Raleway', sans-serif;
+  }
+  li{
+    margin: 3%;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+  }
+  .proj{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin-left: 12%;
+  }
   .heroT {
     color: black;
     font-size: 60px;
