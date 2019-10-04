@@ -1,11 +1,12 @@
 
 var i = 0;
-var txt = 'About Me' ;
-var speed = 70;
+var txt = 'My name is Brian Todd(aka B.Todd), I am a software developer from Austin,TX. I\'ve built  websites, web applications and also software. I enjoy learning' +
+' new technologies and also finding solutions to complex problems'
+var speed = 15;
 
 function typeWriter(){
     if ( i < txt.length){
-        document.getElementById("intro").innerHTML += txt.charAt(i);
+        document.getElementById("descriptionMain").innerHTML += txt.charAt(i);
         i++;
         setTimeout(typeWriter, speed);
     }

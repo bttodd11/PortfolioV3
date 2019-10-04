@@ -38,7 +38,6 @@
 <body onload="typeWriter()" id="mainBack">
   <!-- Page content -->
   <div>
-
     <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -47,10 +46,10 @@
     </head>
 
     <body>
-      <h6 id="intro"></h6>
-      <p class="descriptionMain">My name is Brian Todd(aka B.Todd), I am a software developer from Austin,TX. I've build
-        websites, web applications and also software. I enjoy learning
-        new technologies and also finding solutions to complex problems </p>
+      <div id="aboutMe">
+      <h6 id="intro">About Me</h6>
+      <p id="descriptionMain"></p>
+        <div id="technologies">
       <h6 id="intro">Technologies</h6>
       <div class="container">
         <div class="row">
@@ -69,43 +68,37 @@
           </div>
         </div>
       </div>
-      <div id="workExp">
-      <h6 id="intro">Work Experience</h6>
-      <div class="container">
-        <div class="row">
-            <div class="col-sm-5 mainText">Siemens RCS - Web Developer</div>
-            <div class="col-sm-5 mainText">February 2014 - Present</div>
-            <div class="col-sm-2 mainText">Austin, TX</div>
-            <p class="mainText">
-              <ul>
-                <li>Developed and implemented feature requests made by the operations team to make tasks easier, these features were made using AngularJS and helped with standardizing globals to eliminate user error.</li>
-                <li>Became proficient with command line tools such as Git for version control and collaboration.</li>
-                <li>Refactored previous application code for readability to ensure that the code was precise and easy to follow for all
-                    developers.</li>
-                 <li>Validated user input client-side by creating JavaScript functions to test inputs and alert users when passed data is not valid.</li>
-                 <li>Created training documentation for feature/software releases and presented this information to the operations team.</li>
-                 <li>Contributed to the product roadmap for future software releases by presenting a business case on how the new features can generate revenue and cut down operational cost.</li>
-                 <li>Gave weekly updates to stakeholders to make certain that the software is compliant with the clients needs.</li>
-
-              </ul>
-            </p>
-            </div>
-            </div>
       </div>
-      <div>
+      </div>
+  
+        <div id="projects">
         <h6 id="intro">Projects</h6>
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-4 col-lg-4">
                 <img src="../img/ETC.png" class="proj" alt="">
+                <p class="projDes">JavaScipt - Bootstrap - jQuery - CSS</p>
               </div>
               <div class="col-sm-12 col-md-4 col-lg-4">
                   <img src="../img/MLB.png" class="proj" alt="">
+                  <p class="projDes">PHP - MySQL - REST API</p>
               </div>
               <div class="col-sm-12 col-md-4 col-lg-4">
                   <img src="../img/skills.png" class="proj" alt="">
+                  <p class="projDes">WireFrame - JavaScipt - Bootstrap - UIKit</p>
               </div>
             </div>
+            </div>
+          </div>
+          <div id="message">
+            <h6 id="intro">Leave A Message</h6>
+            <form action="">
+                First name:
+                <input type="text" name="firstname" value="First Name"><br>
+                Last name:
+                <input type="text" name="lastname" value="Last Name"><br><br>
+                <input type="submit" value="Submit">
+            </form>
           </div>
       </div>
     </body>

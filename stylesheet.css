@@ -9,7 +9,7 @@ html {
   background-image: url(img/mainBack2.JPG);
   background-position: center;
   background-repeat: no-repeat;
-  height: 180%;
+  height: 220%;
   margin: 0%;
   background-size: cover;
 }
@@ -82,6 +82,7 @@ span {
   height: 20px;
   margin-top: 2%;
 }
+/* Phone View  */
 @media (max-width: 576px) {
   #hero {
     background-image: url(img/bostonbg.jpeg);
@@ -139,7 +140,6 @@ span {
     text-shadow: 1px 1px 2px #CB6810, 0 0 25px #CB6810, 0 0 5px black;
     letter-spacing: 3px;
   }
-
     .buttonSmall {
     margin: 2%;
     font-size: 18px;
@@ -174,7 +174,7 @@ span {
   }
 }
 
-/*// Large devices (desktops, 992px and up)*/
+/*// Laptop view (desktops, 992px and up)*/
 @media (min-width: 892px) {
   p {
     font-size: 28px;
@@ -187,12 +187,12 @@ span {
     width: 40%;
     margin-left: 30%;
   }
-  .descriptionMain{
-    font-size: 16px;
+  #descriptionMain{
+    font-family: "Handlee", cursive;
+    font-size: 25px;
     width: 50%;
     text-align: center;
-    margin-left: 25%;
-
+    margin-left: 23%;
   }
   strong {
     font-weight: bolder;
@@ -222,7 +222,11 @@ span {
     background-color: transparent;
     border-style: none;
   }
-
+  #technologies{
+    border-style: solid;
+    border-width: 15px;
+    border-color: white;
+  }
   .descriptionT {
     font-size: 25px;
     width: 350px;
@@ -233,6 +237,7 @@ span {
   #intro{
     font-size: 40px;
     text-align: center;
+    margin-top: 2%;
     font-family: "Handlee", cursive;
   }
   h3{
@@ -257,6 +262,8 @@ span {
   }
   li{
     margin: 3%;
+    margin-left: 20%;
+    width: 60%;
     font-size: 14px;
     font-family: 'Raleway', sans-serif;
   }
@@ -265,6 +272,16 @@ span {
     width: 250px;
     border-radius: 50%;
     margin-left: 12%;
+  }
+  #projects{
+    border-top: 3px solid white;
+    border-left: 15px solid white;
+    border-right: 15px solid white;
+    border-bottom: 15px solid white;
+  }
+  .projDes{
+    font-size: 15px;
+    text-align: center
   }
   .heroT {
     color: black;
