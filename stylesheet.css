@@ -2,16 +2,7 @@
 body,
 html {
   height: 100%;
-  margin: 0;
   font-family: "Karma", serif;
-}
-#mainBack{
-  background-image: url(img/mainBack2.JPG);
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 175%;
-  margin: 0%;
-  background-size: cover;
 }
 nav {
   font-family: "Handlee", cursive;
@@ -82,6 +73,48 @@ span {
   height: 20px;
   margin-top: 2%;
 }
+#mainBack{
+  background-image: url(img/mainBack2.JPG);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 450%;
+  width: 100%;
+  margin: 0%;
+  background-size: cover;
+}
+#aboutMe{
+  height: 250px;
+}
+#intro{
+  font-size: 35px;
+  text-align: center;
+  margin-top: 8%;
+  font-family: "Handlee", cursive;
+}
+h3{
+  text-decoration: underline;
+  letter-spacing: 10px;
+  text-align: center;
+}
+ul{
+  font-size: 12px;
+  text-align: center;
+  padding-right: 2%;
+  letter-spacing: 3px;
+  font-family: 'Raleway', sans-serif;
+}
+.proj{
+  height: 140px;
+  width: 180px;
+  border-radius: 25%;
+  margin-left: 25%;
+}
+#message{
+  text-align: center;
+}
+
+
+
 /* Phone View  */
 @media (max-width: 576px) {
   #hero {
@@ -90,6 +123,15 @@ span {
     background-repeat: no-repeat;
     height: 90%;
     font-family: "Karma", serif;
+  }
+  #mainBack{
+    background-image: url(img/mainBack2.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 450%;
+    width: 140%;
+    margin: 0%;
+    background-size: cover;
   }
   p {
     font-size: 18px;
@@ -161,6 +203,15 @@ span {
     background-position: center;
     background-repeat: no-repeat;
   }
+  #mainBack{
+    background-image: url(img/mainBack2.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 320%;
+    width: 100%;
+    margin: 0%;
+    background-size: cover;
+  }
   a:any-link {
     color: white;
   }
@@ -193,6 +244,15 @@ span {
     width: 50%;
     text-align: center;
     margin-left: 23%;
+  }
+  #mainBack{
+    background-image: url(img/mainBack2.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 250%;
+    width: 100%;
+    margin: 0%;
+    background-size: cover;
   }
   strong {
     font-weight: bolder;
@@ -271,10 +331,10 @@ span {
     font-family: 'Raleway', sans-serif;
   }
   .proj{
-    height: 250px;
-    width: 250px;
-    border-radius: 50%;
-    margin-left: 12%;
+    height: 140px;
+    width: 180px;
+    border-radius: 25%;
+    margin-left: 25%;
   }
   #projects{
     border-top: 3px solid white;
